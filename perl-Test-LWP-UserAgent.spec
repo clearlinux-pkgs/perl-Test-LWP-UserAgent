@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-LWP-UserAgent
 Version  : 0.034
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-LWP-UserAgent-0.034.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-LWP-UserAgent-0.034.tar.gz
 Summary  : 'A LWP::UserAgent suitable for simulating and testing network calls'
@@ -12,6 +12,17 @@ Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Test-LWP-UserAgent-license = %{version}-%{release}
 Requires: perl-Test-LWP-UserAgent-perl = %{version}-%{release}
+Requires: perl(HTTP::Date)
+Requires: perl(HTTP::Request)
+Requires: perl(HTTP::Response)
+Requires: perl(HTTP::Status)
+Requires: perl(LWP::UserAgent)
+Requires: perl(Safe::Isa)
+Requires: perl(Scalar::Util)
+Requires: perl(Storable)
+Requires: perl(Try::Tiny)
+Requires: perl(URI)
+Requires: perl(namespace::clean)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(B::Hooks::EndOfScope)
 BuildRequires : perl(HTTP::Date)
