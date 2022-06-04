@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-LWP-UserAgent
 Version  : 0.034
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-LWP-UserAgent-0.034.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-LWP-UserAgent-0.034.tar.gz
 Summary  : 'A LWP::UserAgent suitable for simulating and testing network calls'
@@ -126,4 +126,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Test/LWP/UserAgent.pm
+/usr/lib/perl5/*
