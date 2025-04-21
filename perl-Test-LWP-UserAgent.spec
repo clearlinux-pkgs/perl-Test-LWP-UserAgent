@@ -7,7 +7,7 @@
 #
 Name     : perl-Test-LWP-UserAgent
 Version  : 0.036
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-LWP-UserAgent-0.036.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-LWP-UserAgent-0.036.tar.gz
 Summary  : 'A LWP::UserAgent suitable for simulating and testing network calls'
